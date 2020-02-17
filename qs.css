@@ -1,0 +1,30 @@
+body{ /*image size and content */
+	background-image: url("background.jpg");
+	background-size: 100%;
+	/*background-repeat: no-repeat;*/
+}
+#title{ /* header and title */
+	color: #ffffff;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+#center{
+	margin:auto;
+	width: 50%;
+	padding: 10px;
+}
+a.menucolor{ /* the text properties inside the menu nav */
+	float:left;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+.menucolor{ /* menu background color */
+	background-color: white;
+	opacity: .7;
+}
+.menucolor:hover{ /* hovering color */
+	background-color: #e8de4a;
+}
